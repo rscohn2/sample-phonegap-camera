@@ -25,5 +25,13 @@
     <!-- for Android -->
     <preference name="orientation" value="portrait" />
     <preference name="android-minSdkVersion" value="9" />
+
+    <gap:plugin name="ChildBrowser" /> <!-- latest release -->
+    <gap:plugin name="BarcodeScanner" /> <!-- latest release -->
+    <gap:plugin name="GAPlugin" /> <!-- latest release -->
+    <gap:plugin name="GenericPush" /> <!-- latest release -->
+    <gap:plugin name="FacebookConnect">
+   <param name="APP_ID" value="123456" />
+ </gap:plugin>
 </widget>
 
